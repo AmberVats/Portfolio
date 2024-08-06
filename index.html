@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Amber's Portfolio
+                <br>
+                <span style="font-size: 12px;">Contact No. 8077789998</span>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Projects.html">Project</a></li>
+                    <li><a href="rec.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My Name is <span class="purple">Amber</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+            </div>
+
+            <div class="rightSection">
+                <img src="bg.png" alt="This is a developer">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-grey">What I have Done So Far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="box">
+                    <div class="vertical">
+                        <img class="image-top" src="i1.png" alt="">
+                        <div class="vertical-title">
+                            HTML Developer (2023-24)
+                        </div>
+                        <div class="vertical-desc">
+                            Worked on several projects involving HTML and CSS to create interactive and responsive web pages. Collaborated with designers to implement their vision and ensure a seamless user experience.
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="i1.png" alt="">
+                        <div class="vertical-title">
+                            Node.js Developer (2023-24)
+                        </div>
+                        <div class="vertical-desc">
+                            Developed server-side applications using Node.js, focusing on performance and scalability. Built RESTful APIs to support various frontend services and worked with databases to manage data efficiently.
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="i1.png" alt="">
+                        <div class="vertical-title">
+                            Backend Developer (2023-24)
+                        </div>
+                        <div class="vertical-desc">
+                            Specialized in backend development, ensuring secure and efficient data handling. Utilized technologies such as Express.js and MongoDB to build robust systems and improve overall performance.
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="i1.png" alt="">
+                        <div class="vertical-title">
+                            Full Stack Developer (2024-24)
+                        </div>
+                        <div class="vertical-desc">
+                            Worked as a full stack developer, handling both frontend and backend tasks. Integrated various web technologies to build complete applications, enhancing user experiences and streamlining development processes.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Amber's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Blogs</li>
+                    <li>Youtube</li>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Discord</li>
+                    <li>Reddit</li>
+                    <li>Quora</li>
+                    <li>Twitter(X)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-right">
+            www.amberportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Problem Solver', '&amp; Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
